@@ -27,7 +27,10 @@ namespace ControllersAndActions
             app.UseDeveloperExceptionPage();
             app.UseStaticFiles();
             app.UseSession();
-            app.UseMvcWithDefaultRoute();
+            app.UseMvc(routes => 
+            routes.MapRoute(
+                name: null,
+                template: "{controller=Home}/{action=Index}/{id?}"));
         }
     }
 }

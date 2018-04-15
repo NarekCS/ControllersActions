@@ -1,0 +1,17 @@
+C:\Users\narek\Source\Repos\ControllersActions\ControllersAndActionsTests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\narek\Source\Repos\ControllersActions\ControllersAndActionsTests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\narek\Source\Repos\ControllersActions\ControllersAndActionsTests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\narek\Source\Repos\ControllersActions\ControllersAndActionsTests\bin\Debug\netcoreapp2.0\ControllersAndActionsTests.deps.json
+C:\Users\narek\Source\Repos\ControllersActions\ControllersAndActionsTests\bin\Debug\netcoreapp2.0\ControllersAndActionsTests.runtimeconfig.json
+C:\Users\narek\Source\Repos\ControllersActions\ControllersAndActionsTests\bin\Debug\netcoreapp2.0\ControllersAndActionsTests.runtimeconfig.dev.json
+C:\Users\narek\Source\Repos\ControllersActions\ControllersAndActionsTests\bin\Debug\netcoreapp2.0\ControllersAndActionsTests.dll
+C:\Users\narek\Source\Repos\ControllersActions\ControllersAndActionsTests\bin\Debug\netcoreapp2.0\ControllersAndActionsTests.pdb
+C:\Users\narek\Source\Repos\ControllersActions\ControllersAndActionsTests\bin\Debug\netcoreapp2.0\ControllersAndActions.dll
+C:\Users\narek\Source\Repos\ControllersActions\ControllersAndActionsTests\bin\Debug\netcoreapp2.0\ControllersAndActions.pdb
+C:\Users\narek\Source\Repos\ControllersActions\ControllersAndActionsTests\obj\Debug\netcoreapp2.0\ControllersAndActionsTests.csprojResolveAssemblyReference.cache
+C:\Users\narek\Source\Repos\ControllersActions\ControllersAndActionsTests\obj\Debug\netcoreapp2.0\ControllersAndActionsTests.csproj.CoreCompileInputs.cache
+C:\Users\narek\Source\Repos\ControllersActions\ControllersAndActionsTests\obj\Debug\netcoreapp2.0\ControllersAndActionsTests.AssemblyInfoInputs.cache
+C:\Users\narek\Source\Repos\ControllersActions\ControllersAndActionsTests\obj\Debug\netcoreapp2.0\ControllersAndActionsTests.AssemblyInfo.cs
+C:\Users\narek\Source\Repos\ControllersActions\ControllersAndActionsTests\obj\Debug\netcoreapp2.0\ControllersAndActionsTests.csproj.CopyComplete
+C:\Users\narek\Source\Repos\ControllersActions\ControllersAndActionsTests\obj\Debug\netcoreapp2.0\ControllersAndActionsTests.dll
+C:\Users\narek\Source\Repos\ControllersActions\ControllersAndActionsTests\obj\Debug\netcoreapp2.0\ControllersAndActionsTests.pdb
