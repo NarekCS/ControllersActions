@@ -13,7 +13,7 @@ namespace ControllersAndActions.Controllers
     public class HomeController : Controller
     {
         // GET: /<controller>/
-        public IActionResult Index()
+        public ViewResult Index()
         {
             return View("SimpleForm");
         }
@@ -22,7 +22,7 @@ namespace ControllersAndActions.Controllers
         {
             TempData["name"] = name;
             TempData["city"] = city;
-           return   RedirectToAction(nameof(Data));
+            return RedirectToAction(nameof(Data));
         }
 
         public ViewResult Data()

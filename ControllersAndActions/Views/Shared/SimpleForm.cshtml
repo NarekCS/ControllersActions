@@ -9,7 +9,8 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>SimpleForm</title>
-    <link asp-href-include="~/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="@Url.Action("Index5", "Example")" rel="stylesheet" />
+    @*<link asp-href-include="~/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />*@
 </head>
 <body class="m-1 p-1">
     <form asp-action="ReceiveForm" method="post">

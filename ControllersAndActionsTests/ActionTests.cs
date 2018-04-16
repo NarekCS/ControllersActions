@@ -16,10 +16,10 @@ namespace ControllersAndActionsTests
             HomeController controller = new HomeController();
 
             //Act
-            ViewResult result = controller.ReceiveForm("Adam", "London");
-
+            RedirectToActionResult result = controller?.ReceiveForm("Adam", "London");// ?? new RedirectToActionResult("Data", "Home", new {name = "Adam", city = "London" });
+           // ViewResult result = controller.Index();
             //Assert
-            Assert.Equal("Result", result.ViewName);
+            Assert.Equal("Data", result?.ActionName);
         }
 
         [Fact]
@@ -50,6 +50,28 @@ namespace ControllersAndActionsTests
             //Assert.Equal("Example", result.RouteValues["controller"]);
             //Assert.Equal("Index", result.RouteValues["action"]);
             // Assert.Equal("MyID", result.RouteValues["ID"]);
+        }
+
+        [Fact]
+        public void JsonActionMethod()
+        {
+            //Arrange
+            ExampleController controller = new ExampleController();
+            //Act
+            JsonResult result = controller.Index2();
+            //Assert
+            Assert.Equal(new[] { "Alice", "Bob", "Joe" }, result.Value);
+        }
+
+        [Fact]
+        public void NotFoundActionMethod()
+        {
+            //Arrange
+            ExampleController controller = new ExampleController();
+            //Act
+            NotFoundResult result = controller.Index7();
+            //Assert
+            Assert.Equal(404, result.StatusCode);
         }
     }
 }
